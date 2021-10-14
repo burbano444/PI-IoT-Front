@@ -7823,6 +7823,21 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-img {
+  
+  background-image: url("https://www.udea.edu.co/wps/wcm/connect/udea/5080906a-05ed-4d14-8dfe-521223664eab/Creador+de+Energ%C3%ADa.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-5080906a-05ed-4d14-8dfe-521223664eab-mSoRqiT");
+  background-size: 10cm;
+  background-position:center;
+}
+
+.bg-logo {
+  
+  background-image: url("https://www.udea.edu.co/wps/wcm/connect/udea/415498d3-3a88-47d4-b45a-1cc969b381b6/UdeA+simplificado+%C2%AE-03.png?MOD=AJPERES&CVID=nG2wKbG");
+  background-size: 10cm;
+  background-position:center;
+}
+
+
 .bg-info {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
