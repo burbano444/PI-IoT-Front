@@ -74,6 +74,7 @@
             </nav>
         </div>
         <div id="layoutSidenav_content">
+            
             <main>
                 <div class="container-fluid px-4">
                     <h1 class="mt-4">Agregar espacio</h1>
@@ -82,41 +83,17 @@
                     </ol>
                     <!-- My form -->
                     <form id="mainForm">
-                        <input required type="text" name="block" placeholder="block"><br>
-                        <input required type="text" name="room" placeholder="room"><br>
-                        <input required type="number" name="full_occupancy" placeholder="full_occupancy" min="0"><br>
-                        <input required type="number" name="threshold" placeholder="threshold" min="0" max="1"
+                        <input required type="text" class="form-control mb-2" name="block" placeholder="BLOQUE"><br>
+                        <input required type="text" class="form-control mb-2" name="room" placeholder="SALÓN"><br>
+                        <input required type="number" class="form-control mb-2" name="full_occupancy" placeholder="OCUPACIÓN TOTAL" min="0"><br>
+                        <input required type="number" class="form-control mb-2" name="threshold" placeholder="UMBRAL DE OCUPACION" min="0" max="1"
                             step="0.05"><br>
-                        <input type="submit" value="Save">
+                        <input type="submit" class="btn btn-primary mb-2" value="Save">
                     </form>
                     <!-- My form -->
-
-                    <form>
-                        <div class="form-row align-items-center">
-                            <div class="col-auto">
-                                <label class="sr-only" for="inlineFormInput">Name</label>
-                                <input type="text" class="form-control mb-2" id="inlineFormInput"
-                                    placeholder="Jane Doe">
-                            </div>
-                            <div class="col-auto">
-                                <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                                <div class="input-group mb-2">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">@</div>
-                                    </div>
-                                    <input type="text" class="form-control" id="inlineFormInputGroup"
-                                        placeholder="Username">
-                                </div>
-                            </div>
-                            <div class="col-auto">
-                                <button type="submit" class="btn btn-primary mb-2">Agregar</button>
-                            </div>
-                        </div>
-                    </form>
-
-
                 </div>
             </main>
+
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
