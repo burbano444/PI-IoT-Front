@@ -7826,8 +7826,8 @@ textarea.form-control-lg {
 .bg-img {
   
   background-image: url("https://www.udea.edu.co/wps/wcm/connect/udea/5080906a-05ed-4d14-8dfe-521223664eab/Creador+de+Energ%C3%ADa.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-5080906a-05ed-4d14-8dfe-521223664eab-mSoRqiT");
-  background-size: 10cm;
-  background-position:center;
+  background-size:cover ;
+  background-position: center;
 }
 
 .bg-logo {
